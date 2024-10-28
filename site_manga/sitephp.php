@@ -27,7 +27,7 @@
                 </div>
                 <div>
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#contactForm">info créateur</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#mes info">info créateur</a></li>
                     </ul>
                 </div>
             </div>
@@ -129,7 +129,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5"> My Website 2024 by Eloi brevart</div></footer>
+        <footer class="footer bg-black small text-center text-white"><div class="container px-4 px-lg-5" id="mes info"> My Website 2024 by Eloi brevart</div></footer>
         <!-- Bootstrap core JS-->
         <!-- Core theme JS-->
         
