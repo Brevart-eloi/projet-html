@@ -30,11 +30,6 @@ session_start();
         
         <button type="submit">Se connecter</button>
     </form>
-
-    <!-- Bouton d'inscription -->
-    <a href="sitephp2.php">
-        <button type="button" class="btn-inscription">S'inscrire</button>
-    </a>
 </div>
 
 </body>
