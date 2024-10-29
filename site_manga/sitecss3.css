@@ -1,0 +1,73 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://wallpapercave.com/wp/wp9194620.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+/* Style pour le conteneur du formulaire de connexion */
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+/* Style du bouton de connexion */
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Ajoute un peu de marge pour espacer les boutons */
+
+.btn-inscription {
+    margin-top: 10px;
+    /* Ajuste la valeur selon tes besoins */
+}
+
+
+/* Style des champs de formulaire */
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="email"] {
+    /* Ajouté input[type="email"] */
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}

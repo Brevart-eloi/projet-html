@@ -11927,3 +11927,8 @@ body {
     color: transparent;
     /* Rend le texte transparent pour ne voir que le dégradé */
 }
+
+.btn-connexion {
+    margin-top: 15px;
+    /* Ajuste la valeur selon tes besoins */
+}

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>site web connexion</title>
+        <title>site web Bienvenue</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -41,7 +41,9 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase text-degrade">Bienvenue</h1>
                         <h2 class="text-degrade mx-auto text-uppercase">connecte toi a mon site :</h2>
-                        <a class="btn btn-primary" href="#about">connexion</a>
+                        <a href="sitephp3.php">
+                            <button type="button" class="btn btn-primary" href="#about">connexion</button>
+                        </a>
                     </div>
                 </div>
             </div>
