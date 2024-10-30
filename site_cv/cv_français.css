@@ -1,0 +1,108 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            
+                            body {
+                                font-family: Arial, sans-serif;
+                                display: flex;
+                                justify-content: center;
+                                background-color: #f4f5f7;
+                                color: #333;
+                            }
+                            
+                            .cv-container {
+                                display: flex;
+                                width: 900px;
+                                background-color: #fff;
+                                border-radius: 8px;
+                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                overflow: hidden;
+                            }
+                            
+                            .sidebar {
+                                background-color: #00a4cc;
+                                color: #fff;
+                                width: 35%;
+                                padding: 20px;
+                                text-align: left;
+                            }
+                            
+                            .image-de-profile {
+                                text-align: center;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .profile-picture img {
+                                width: 120px;
+                                height: 120px;
+                                border-radius: 50%;
+                            }
+                            
+                            .sidebar h2 {
+                                font-size: 16px;
+                                margin-top: 20px;
+                                margin-bottom: 10px;
+                                border-bottom: 1px solid #fff;
+                                padding-bottom: 5px;
+                            }
+                            
+                            .sidebar p,
+                            .sidebar ul {
+                                font-size: 14px;
+                                line-height: 1.6;
+                                margin-bottom: 10px;
+                            }
+                            
+                            .sidebar ul {
+                                list-style-type: none;
+                            }
+                            
+                            .main-content {
+                                padding: 40px;
+                                width: 65%;
+                            }
+                            
+                            .main-content h1 {
+                                font-size: 26px;
+                                color: #00a4cc;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .main-content .intro {
+                                font-size: 14px;
+                                color: #555;
+                                margin-bottom: 30px;
+                                line-height: 1.6;
+                            }
+                            
+                            .main-content h2 {
+                                font-size: 18px;
+                                color: #8e735f;
+                                margin-bottom: 10px;
+                                text-transform: uppercase;
+                            }
+                            
+                            .main-content p {
+                                font-size: 14px;
+                                color: #333;
+                                line-height: 1.6;
+                                margin-bottom: 20px;
+                            }
+                            
+                            ul li {
+                                margin-bottom: 8px;
+                            }
+                            
+                            .jaune {
+                                color: gold;
+                            }
+                            
+                            .espace-titre {
+                                margin: 75px;
+                            }
+                            
+                            .espace {
+                                margin: 40px;
+                            }
