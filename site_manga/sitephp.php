@@ -20,13 +20,6 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand text-degrade" href="#page-top">Eloi Website</a>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Lien d'inscription qui redirige vers sitephp2.php -->
-                        <li class="nav-item"><a class="nav-link" href="sitephp2.php">Inscription avec ton email</a></li>
-                    </ul>
-                </div>
-                
                 <div>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#mes info">Info créateur</a></li>
@@ -34,7 +27,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+        <!-- page principale-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
