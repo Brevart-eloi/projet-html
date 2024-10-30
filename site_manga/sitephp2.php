@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>présentation des animés</title>
+    <title>Présentation des Animés</title>
     <link rel="stylesheet" href="sitecss2.css">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Navigation-->
     <header>
         <h1>Qu'est-ce que les Animés ?</h1>
-        <!-- Navigation-->
         <nav>
             <ul>
                 <li><a href="#definition">Définition</a></li>
@@ -20,7 +20,7 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Contenu-->
     <main>
         <section id="definition">
             <h2>Définition</h2>
@@ -42,9 +42,9 @@
                 Les animés se déclinent en plusieurs genres, parmi lesquels :
             </p>
             <ul>
-                <li>Isekai : souvent destiné aux garçons, avec un personnages réincarné.</li>
+                <li>Isekai : souvent destiné aux garçons, avec un personnage réincarné.</li>
                 <li>Shonen : souvent destiné aux garçons, souvent centré sur l'action.</li>
-                <li>Shoujo : souvent destiné  aux filles, axé sur la romance et les relations.</li>
+                <li>Shoujo : souvent destiné aux filles, axé sur la romance et les relations.</li>
                 <li>Seinen : pour un public adulte, abordant des thèmes plus matures.</li>
                 <li>Josei : ciblant les femmes adultes, avec des histoires réalistes.</li>
                 <li>Mecha : centré sur des robots géants et des batailles futuristes.</li>
