@@ -24,7 +24,7 @@
                             cv_Français
                         </a></li>
                         <li><a href="cv_anglais.html">
-                            cv_anglais
+                            cv_Anglais
                         </a></li>
                     </ul>
                 </li>
