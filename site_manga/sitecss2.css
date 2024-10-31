@@ -1,3 +1,4 @@
+/* Style général du corps */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,32 +7,89 @@ body {
     background-color: #f4f4f4;
 }
 
+/* En-tête */
 header {
     background: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    position: relative;
+}
+
+/* Style de navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    position: relative;
+    margin: 0 10px;
+}
+
+/* Menu "Cours Complets" positionné à droite */
+.menu-deroulant {
+    margin-left: auto; /* Pousse le menu à droite */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10px;
 }
 
 nav ul li a:hover {
+    color: orange;
     text-decoration: underline;
 }
 
+/* Style du menu déroulant */
+.menu-deroulant > a::after {
+    content: " ▼";
+    font-size: 12px;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0; /* Aligne le menu déroulant à droite */
+    background-color: white;
+    box-shadow: 0px 1px 2px #CCC;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+/* Affichage du sous-menu au survol */
+.menu-deroulant:hover .sous {
+    display: block;
+}
+
+.sous li {
+    width: 100%;
+    text-align: left;
+}
+
+.sous a {
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+.sous a:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+/* Style des sections */
 main {
     padding: 20px;
     max-width: 800px;
@@ -46,6 +104,7 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Pied de page */
 footer {
     text-align: center;
     padding: 10px 0;
