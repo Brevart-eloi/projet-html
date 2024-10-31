@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation des Animés</title>
-    <link rel="stylesheet" href="sitecss2test.css"> <!-- Nouveau nom de fichier CSS -->
+    <link rel="stylesheet" href="sitecss2.css"> <!-- Nouveau nom de fichier CSS -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,11 +18,14 @@
                 <li><a href="#genres">Genres</a></li>
                 <li><a href="#conclusion">Conclusion</a></li>
                 <!-- Menu déroulant en haut à droite -->
-                <li class="menu-deroulant"><a href="#">Cours Complets &ensp;</a>
+                <li class="menu-deroulant"><a href="#">MENU &ensp;</a>
                     <ul class="sous">
-                        <li><a href="#">Cours HTML et CSS</a></li>
-                        <li><a href="#">Cours JavaScript</a></li>
-                        <li><a href="#">Cours PHP et MySQL</a></li>
+                        <li><a href="cv_français.html">
+                            cv_Français
+                        </a></li>
+                        <li><a href="cv_anglais.html">
+                            cv_anglais
+                        </a></li>
                     </ul>
                 </li>
             </ul>
