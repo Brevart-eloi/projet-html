@@ -1,0 +1,72 @@
+/* Fichier CSS : style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ff4500;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.intro, .characters, .visual-style {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.intro h2, .characters h2, .visual-style h2 {
+    font-size: 2em;
+    color: #ff4500;
+    margin-bottom: 1em;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.character img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.character h3 {
+    font-size: 1.5em;
+    color: #ff4500;
+}
+
+.footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+.footer p {
+    color: #aaa;
+}

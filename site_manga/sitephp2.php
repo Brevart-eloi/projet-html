@@ -26,6 +26,9 @@
                         <li><a href="cv_anglais.html">
                             cv_Anglais
                         </a></li>
+                        <li><a href="pageanimepréré.html">
+                            animé préféré
+                        </a></li>
                     </ul>
                 </li>
             </ul>
