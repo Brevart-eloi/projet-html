@@ -34,7 +34,7 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase text-degrade">Bienvenue</h1>
                         <h2 class="text-degrade mx-auto text-uppercase">connecte toi a mon site :</h2>
-                        <a href="sitephp3.php">
+                        <a href="site_connexion.php">
                             <button type="button" class="btn btn-primary" href="#about">connexion</button>
                         </a>
                     </div>

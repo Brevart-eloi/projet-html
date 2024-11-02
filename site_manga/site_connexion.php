@@ -46,12 +46,12 @@ session_start();
             $_SESSION['username'] = $username; // Enregistrez le nom d'utilisateur dans la session
 
             // Redirigez vers sitephp2.php
-            header("Location: sitephp2.php");
+            header("Location: site_présentation.php");
             exit(); // Terminez le script après la redirection
         } else {
             // Authentification échouée
             $_SESSION['error'] = "Nom d'utilisateur ou mot de passe incorrect.";
-            header("Location: sitephp2.php"); // Redirigez vers la page de connexion
+            header("Location: site_présentation.php"); // Redirigez vers la page de connexion
             exit();
         }
     }
