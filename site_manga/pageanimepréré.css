@@ -70,3 +70,23 @@ body {
 .footer p {
     color: #aaa;
 }
+
+.synopsis {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background-color: #333333;
+    border-radius: 8px;
+}
+
+.synopsis h2 {
+    font-size: 2em;
+    color: #ff4500;
+    margin-bottom: 1em;
+}
+
+.synopsis p {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-top: 1em;
+}
