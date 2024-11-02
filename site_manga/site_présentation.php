@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation des Animés</title>
-    <link rel="stylesheet" href="sitecss2.css"> <!-- Nouveau nom de fichier CSS -->
+    <link rel="stylesheet" href="site_présentation.css">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation/titre -->
     <header>
         <h1>Qu'est-ce que les Animés ?</h1>
         <nav>
