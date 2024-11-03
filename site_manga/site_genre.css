@@ -1,0 +1,40 @@
+body {
+    background-color: #0d1b2a; /* Couleur d'arrière-plan très sombre */
+    color: #d9d9d9; /* Couleur de texte principale */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b2631; /* Couleur d'arrière-plan de l'en-tête */
+    color: #00bcd4; /* Texte cyan */
+}
+
+.genre {
+    background-color: #1c2e4a; /* Couleur de fond des sections */
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Ombre légère */
+}
+
+.genre h2 {
+    color: #00bcd4; /* Couleur des titres */
+}
+
+a {
+    color: #ff4081; /* Couleur des liens */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol des liens */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b2631; /* Couleur de fond du pied de page */
+    color: #00bcd4; /* Texte cyan */
+}

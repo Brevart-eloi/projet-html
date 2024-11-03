@@ -21,13 +21,19 @@
                 <li class="menu-deroulant"><a href="#">MENU &ensp;</a>
                     <ul class="sous">
                         <li><a href="cv_français.html">
-                            cv_Français
+                            CV Français
                         </a></li>
                         <li><a href="cv_anglais.html">
-                            cv_Anglais
+                            CV Anglais
                         </a></li>
                         <li><a href="pageanimepréré.html">
                             animé préféré
+                        </a></li>
+                        <li><a href="site_personnage.html">
+                            Personnages Populaires
+                        </a></li>
+                        <li><a href="site_genre.html">
+                            Genres et Recommandations
                         </a></li>
                     </ul>
                 </li>
