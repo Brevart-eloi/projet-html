@@ -1,50 +1,43 @@
-/*!
-* Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Navbar shrink function
+    // Fonction de réduction de la barre de navigation
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
-            return;
+            return; // Si la barre de navigation (#mainNav) n'est pas trouvée, on arrête la fonction
         }
         if (window.scrollY === 0) {
+            // Retire la classe 'navbar-shrink' lorsque la page est en haut
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
+            // Ajoute la classe 'navbar-shrink' pour rétrécir la barre lors du défilement
             navbarCollapsible.classList.add('navbar-shrink')
         }
-
     };
 
-    // Shrink the navbar 
+    // Appelle la fonction pour rétrécir la barre de navigation au chargement de la page
     navbarShrink();
 
-    // Shrink the navbar when page is scrolled
+    // Rétrécit la barre de navigation lorsque l'utilisateur fait défiler la page
     document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
+    // Active le scrollspy de Bootstrap sur la barre de navigation principale pour un suivi de section
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
-            rootMargin: '0px 0px -40%',
+            rootMargin: '0px 0px -40%', // Ajustement pour activer le scrollspy un peu avant d'atteindre la section
         });
-    };
+    }
 
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
+    // Ferme la barre de navigation responsive lorsque l'utilisateur clique sur un élément du menu
+    const navbarToggler = document.body.querySelector('.navbar-toggler'); // Bouton pour afficher/cacher le menu
     const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
+        document.querySelectorAll('#navbarResponsive .nav-link') // Tous les liens du menu responsive
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
+            // Ferme le menu responsive si le bouton toggler est visible
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
                 navbarToggler.click();
             }
