@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="login-container">
-        <h2>Connexion</h2>
-        <form method="post" action="../présentation/site_présentation.html">
+        <h2 class="Connexion-Title">Connexion</h2>
+        <!-- Validation via JavaScript sans utiliser action post -->
+        <form id="login-form">
             <input type="text" name="username" placeholder="Nom d'utilisateur" required>
             
             <div class="password-container">
@@ -23,5 +24,30 @@
             </div>
         </form>
     </div>
+
+    <!-- Script de validation -->
+    <script>
+        // 1. Sélection du formulaire par son ID pour lui ajouter un "écouteur d'événements" sur la soumission
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            
+            // 2. Empêcher le comportement par défaut de la soumission de formulaire
+            // Normalement, le formulaire envoie une requête au serveur, mais ici on l'empêche.
+            event.preventDefault();
+            
+            // 3. Récupération des valeurs des champs de saisie
+            const username = document.querySelector('input[name="username"]').value;
+            const password = document.querySelector('input[name="password"]').value;
+            
+            // 4. Vérification si les deux champs sont remplis
+            if (username && password) {
+                // Si les deux champs sont remplis, on redirige l'utilisateur vers la page de présentation
+                // Ici, la redirection est immédiate vers site_présentation.html
+                window.location.href = "../présentation/site_présentation.html";
+            } else {
+                // Si l'un des champs est vide, on affiche un message d'alerte à l'utilisateur
+                alert("Veuillez remplir tous les champs.");
+            }
+        });
+    </script>
 </body>
 </html>

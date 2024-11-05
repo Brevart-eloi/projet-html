@@ -97,10 +97,10 @@ header p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://img.freepik.com/photos-gratuite/arriere-plan-galaxie-style-anime_23-2151133930.jpg?t=st=1730640980~exp=1730644580~hmac=d640635d179546b261f2d9e311db7a5fe54305eef42b1834ff2b31a681c696e1&w=900') no-repeat center center;
+    background: url('https://images.hdqwalls.com/download/fantasy-waterfall-7w-2048x1152.jpg') no-repeat center center;
     background-size: cover;
-    /* Application du flou et de la réduction de luminosité */
-    filter: blur(2px) brightness(0.5);
+    /* augmentation de luminosité */
+    filter: brightness(1.2);
     /* Z-index pour positionner cet arrière-plan derrière le contenu */
     z-index: -1;
 }
