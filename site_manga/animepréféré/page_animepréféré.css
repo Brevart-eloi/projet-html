@@ -1,5 +1,6 @@
 /* Fichier CSS : style.css */
 
+/* Réinitialise les marges et les paddings pour tous les éléments, définit une boîte de dimension constante, et applique la police Arial */
 * {
     margin: 0;
     padding: 0;
@@ -7,47 +8,55 @@
     font-family: Arial, sans-serif;
 }
 
+/* Style général pour le corps de la page */
 body {
-    background-color: #1c1c1c;
-    color: #f0f0f0;
-    line-height: 1.6;
+    background-color: #1c1c1c; /* Arrière-plan sombre */
+    color: #f0f0f0; /* Texte clair pour le contraste */
+    line-height: 1.6; /* Améliore la lisibilité */
 }
 
+/* En-tête de la page, centré et avec un fond orange */
 .header {
     background-color: #ff4500;
     text-align: center;
     padding: 2em 0;
 }
 
+/* Titre principal dans l'en-tête, avec une grande taille de police */
 .header h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
 
+/* Texte de description dans l'en-tête */
 .header p {
     font-size: 1.2em;
 }
 
+/* Styles pour les sections principales, centrées et avec un fond gris foncé */
 .intro, .characters, .visual-style {
-    max-width: 800px;
-    margin: 2em auto;
+    max-width: 800px; /* Limite la largeur pour une meilleure lisibilité */
+    margin: 2em auto; /* Centre les sections */
     padding: 1em;
     background-color: #333333;
-    border-radius: 8px;
+    border-radius: 8px; /* Coins arrondis */
 }
 
+/* Titres des sections avec couleur orange pour les différencier */
 .intro h2, .characters h2, .visual-style h2 {
     font-size: 2em;
     color: #ff4500;
     margin-bottom: 1em;
 }
 
+/* Style pour chaque personnage dans la section "characters" */
 .character {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
 }
 
+/* Image des personnages, ronde et dimension fixe */
 .character img {
     width: 100px;
     height: 100px;
@@ -55,11 +64,13 @@ body {
     margin-right: 1em;
 }
 
+/* Nom des personnages avec une taille plus grande et couleur orange */
 .character h3 {
     font-size: 1.5em;
     color: #ff4500;
 }
 
+/* Pied de page, centré et avec un fond gris foncé */
 .footer {
     background-color: #333333;
     text-align: center;
@@ -67,10 +78,12 @@ body {
     margin-top: 2em;
 }
 
+/* Texte du pied de page en gris clair */
 .footer p {
     color: #aaa;
 }
 
+/* Section "synopsis" avec un style similaire aux autres sections */
 .synopsis {
     max-width: 800px;
     margin: 2em auto;
@@ -79,12 +92,14 @@ body {
     border-radius: 8px;
 }
 
+/* Titre de la section "synopsis", en orange pour la cohérence */
 .synopsis h2 {
     font-size: 2em;
     color: #ff4500;
     margin-bottom: 1em;
 }
 
+/* Texte dans le synopsis, légèrement plus grand et en gris clair */
 .synopsis p {
     font-size: 1.1em;
     color: #ccc;
